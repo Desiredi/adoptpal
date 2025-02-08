@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+}
+
+/* Header */
+header {
+    background-color: rgb(255, 222, 161);
+    padding: 17px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#paw {
+    width: 100px;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+nav ul li:hover, .dropdown-content a:hover {
+    transform: scale(1.01);
+    align-items: center;
+}
+
+nav ul li a {
+    font-size: 17px;
+    color: green ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a::selection, .dropdown-link img::selection, .dropdown::selection {
+    background-color: #3d3d3d;
+    color: whitesmoke;
+}
+
+nav ul li a:hover {
+    color: #392C6B;
+}
+
+/* Hero section */
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #8B0000;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* Hero Section */
+#hri {
+    height: 200px;
+    width: auto;
+}
+
+.hero {
+    background-image: url('resources/kitten-puppy.jpg');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 44px;
+    color: #8B0000;
+    margin-bottom: 8px;
+}
+ 
+ .hero-content p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 220px;
+    font-weight: 500;
+ }
+ 
+ .hero-content button {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 13px 21px;
+    background-color: #fc5335;
+    color: #fff;
+    border: 2px solid #fc5335;
+    border-radius: 22px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.hero-content button:hover {
+    border-width: 2px;
+    background-color: #ffffffce;
+    color: #fc5335;
+ }
+ 
